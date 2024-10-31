@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-     <div className="flex flex-col md:flex-row w-full max-w-sm mx-auto m-16 ">
+     <div className="flex flex-col md:flex-row w-full max-w-sm justify-center mx-auto m-16 ">
       <img src={ window.innerWidth <=768 ? PerfumeImgMb : PerfumeImg}  alt="" className='rounded-tl-xl md:rounded-l-xl'  />
       <div className='bg-white py-8 px-6 md:px-8 flex flex-col rounded-br-xl md:rounded-r-xl  '>
         <h2 className='text-xl font-extralight'>Perfume</h2>
